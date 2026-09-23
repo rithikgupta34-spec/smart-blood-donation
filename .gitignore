@@ -1,0 +1,6 @@
+blood_donation.db
+_pycache_/
+*.pyc
+.env
+.venv/
+venv/
