@@ -1,6 +1,31 @@
-blood_donation.db
-_pycache_/
-*.pyc
-.env
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
 .venv/
 venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Database
+blood_donation.db
+*.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Testing / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+tempCodeRunnerFile.py
